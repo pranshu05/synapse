@@ -1,5 +1,6 @@
 import "./globals.css";
 import StarryBackground from "@/components/StarryBackground";
+import Parallax from "@/components/Parallax";
 
 export const metadata = {
     title: "Synapse'25",
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
             <body className={`antialiased`}>
                 {children}
                 <StarryBackground />
+                <Parallax />
             </body>
         </html>
     );
