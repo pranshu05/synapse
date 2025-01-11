@@ -1,4 +1,4 @@
-import Parallax from "@/components/(home)/Parallax";
+import Parallax from "@/components/(home)/Paralllaxdhruv";
 
 export default function Home() {
     return (
