@@ -49,7 +49,9 @@ const MysticWoods = () => {
         <div className="mystic-woods">
             <div className="scrollElement">
                 <div className="mountains">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" src="./">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+                        <path fill="#B7B7B7" d="M1920 1080H0V0h1920z"/>
+                        <path fill="#A3A3A3" d="M1920 1080H0V0h1920z"/>
                     </svg>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
                         <path fill="#B7B7B7" d="M1920 1080H0V0h1920z"/>
