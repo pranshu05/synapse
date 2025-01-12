@@ -103,7 +103,7 @@ const StarryBackground = () => {
         drawStars();
     }, []);
 
-    return <canvas ref={canvasRef} style={{ position: "fixed", top: 0, left: 0, zIndex: -1 }} />;
+    return <canvas ref={canvasRef} style={{ position: "absolute", height:"100%", top: 0, left: 0, zIndex: -1, backgroundColor: "black" }} />;
 };
 
 export default StarryBackground;

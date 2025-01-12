@@ -1,5 +1,5 @@
 "use client";
-import Parallax from "@/components/(home)/Paralllaxdhruv";
+import Parallax from "@/components/(home)/Parallax";
 
 // import MysticWoods from "@/components/(home)/MysticWoods";
 
